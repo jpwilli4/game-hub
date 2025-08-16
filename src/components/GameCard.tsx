@@ -1,4 +1,4 @@
-import type { Game } from "@/entities/Game";
+import type Game from "@/entities/Game";
 import getCroppedImageUrl from "@/services/image-url";
 import { Card, CardBody, Heading, HStack, Image } from "@chakra-ui/react";
 import PlatformIconList from "./PlatformIconList";
